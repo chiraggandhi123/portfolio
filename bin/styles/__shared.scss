@@ -1,0 +1,23 @@
+// various viewports
+
+$mobileS: '360px'; // Galaxy S5
+$mobileM: '375px'; // Iphone X
+$mobileL: '414px'; // Iphone +
+$ipad: '768px'; // tablet
+$laptop: '1024px';
+$laptopL: '1440px';
+$desktop: '2560px';
+/*
+ @media ${Styles.device.laptopL} {
+ }
+ @media ${Styles.device.laptop} {
+ }
+ @media ${Styles.device.ipad} {
+ }
+ @media ${Styles.device.mobileL} {
+ }
+ @media ${Styles.device.mobileM} {
+ }
+ @media ${Styles.device.mobileS} {
+ }
+*/

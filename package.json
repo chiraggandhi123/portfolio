@@ -1,0 +1,74 @@
+{
+  "name": "shaurya-showcase",
+  "private": true,
+  "description": "Shaurya Personal Portfolio to showcase Shaurya and his work at one place from various places.",
+  "author": "Shaurya Singhal <shauryasinghal84@gmail.com>",
+  "version": "2.0.0",
+  "dependencies": {
+    "@uiw/react-heat-map": "^2.1.1",
+    "@vercel/analytics": "^1.0.0",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^0.26.1",
+    "babel-plugin-styled-components": "^2.0.7",
+    "framer-motion": "^6.3.3",
+    "gatsby": "^4.12.1",
+    "gatsby-plugin-gatsby-cloud": "^4.12.1",
+    "gatsby-plugin-google-analytics": "^4.12.1",
+    "gatsby-plugin-image": "^2.12.1",
+    "gatsby-plugin-manifest": "^4.12.1",
+    "gatsby-plugin-offline": "^5.12.1",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-plugin-react-helmet": "^5.12.1",
+    "gatsby-plugin-react-svg": "^3.1.0",
+    "gatsby-plugin-sass": "^5.12.1",
+    "gatsby-plugin-sharp": "^4.12.1",
+    "gatsby-plugin-styled-components": "^5.12.1",
+    "gatsby-source-filesystem": "^4.12.1",
+    "gatsby-source-git": "^1.1.0",
+    "gatsby-transformer-sharp": "^4.12.1",
+    "html-react-parser": "^1.4.11",
+    "ipynb2html": "^0.3.0",
+    "nodom": "^2.4.0",
+    "notebookjs": "^0.6.7",
+    "prismjs": "^1.27.0",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.1",
+    "react-countup": "^6.2.0",
+    "react-dom": "^17.0.1",
+    "react-emoji-render": "^1.2.4",
+    "react-helmet": "^6.1.0",
+    "react-simple-code-editor": "^0.11.0",
+    "react-typewriter-effect": "^1.1.0",
+    "react-visibility-sensor": "^5.1.1",
+    "sass": "^1.50.0",
+    "styled-components": "^5.3.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "keywords": [
+    "gatsby",
+    "react",
+    "shaurya"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "yarn clean && gatsby build",
+    "develop": "gatsby develop",
+    "dev": "gatsby clean && gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "portclean": "sudo kill -9 $(sudo lsof -t -i:8000)",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jugshaurya/showcase"
+  },
+  "bugs": {
+    "url": "https://github.com/jugshaurya/showcase/issues"
+  }
+}

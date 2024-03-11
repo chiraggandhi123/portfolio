@@ -1,0 +1,112 @@
+import React from 'react';
+import './snow.scss';
+
+const Snow = () => {
+  return (
+    <>
+      {/* 100 snow balls */}
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+      <div className="snow"></div>
+    </>
+  );
+};
+
+export default Snow;

@@ -1,0 +1,37 @@
+@import './colors';
+
+$font_path: '../static/fonts';
+$font_normal: 'monospace';
+$font_gabriela: 'Gabriela';
+$font_gabriela_filename: 'Gabriela-Regular';
+$font_gloriahallelujah: 'Gloria Hallelujah';
+$font_gloriahallelujah_filename: 'GloriaHallelujah';
+$font_robotomono: 'Roboto Mono';
+$font_robotomono_filename: 'RobotoMono-Regular';
+$font_normal: 'monospace';
+
+@mixin font-face($font-name, $font-family, $url) {
+  @font-face {
+    font-family: $font-name;
+    src: url('#{$url}/#{$font-family}.woff') format('woff'),
+      url('#{$url}/#{$font-family}.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@include font-face($font_gabriela, $font_gabriela_filename, $font_path);
+@include font-face(
+  $font_gloriahallelujah,
+  $font_gloriahallelujah_filename,
+  $font_path
+);
+@include font-face($font_robotomono, $font_robotomono_filename, $font_path);
+
+@mixin textColorGradient($gradient) {
+  background: -webkit-#{$gradient};
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

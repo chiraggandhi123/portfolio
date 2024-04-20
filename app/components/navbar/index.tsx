@@ -1,35 +1,20 @@
 import React, { useEffect } from "react";
 import "./index.css";
-const Navbar = () => {
-  
+const Navbar = ({links, activeLink, setActiveLink}:{links: string[], activeLink:number ,setActiveLink: (ix:number)=>void}) => {
   return (
     <nav className="navbar">
       <ul className="navbar-list">
-        <li className="navbar-item">
-          <button className="navbar-link  active" data-nav-link="">
-            About
-          </button>
-        </li>
-        <li className="navbar-item">
-          <button className="navbar-link" data-nav-link="">
-            Resume
-          </button>
-        </li>
-        <li className="navbar-item">
-          <button className="navbar-link" data-nav-link="">
-            Portfolio
-          </button>
-        </li>
-        <li className="navbar-item">
-          <button className="navbar-link" data-nav-link="">
-            Blog
-          </button>
-        </li>
-        <li className="navbar-item">
-          <button className="navbar-link" data-nav-link="">
-            Contact
-          </button>
-        </li>
+        {links.map((item, idx) => {
+          return (
+            <>
+              <li key={idx} className="navbar-item" onClick={()=> setActiveLink(idx)}>
+                <button className={`navbar-link ${activeLink === idx ? 'active': ''}`} data-nav-link="">
+                  {item}
+                </button>
+              </li>
+            </>
+          );
+        })}
       </ul>
     </nav>
   );

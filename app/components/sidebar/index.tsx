@@ -20,7 +20,7 @@ const Sidebar = ()=>{
       </div>
       <button className="info_more-btn" data-sidebar-btn="">
         <span>Show Contacts</span>
-        <ion-icon name="chevron-down" />
+        <img  src="/images/chevron-down.svg" />
       </button>
     </div>
     <div className="sidebar-info_more">
@@ -28,7 +28,7 @@ const Sidebar = ()=>{
       <ul className="contacts-list">
         <li className="contact-item">
           <div className="icon-box">
-            <ion-icon name="mail-outline" />
+            <img  src="/images/mail-outline.svg" />
           </div>
           <div className="contact-info">
             <p className="contact-title">Email</p>
@@ -42,7 +42,7 @@ const Sidebar = ()=>{
         </li>
         <li className="contact-item">
           <div className="icon-box">
-            <ion-icon name="phone-portrait-outline" />
+            <img src="/images/phone-portrait-outline.svg" />
           </div>
           <div className="contact-info">
             <p className="contact-title">Phone</p>
@@ -53,7 +53,7 @@ const Sidebar = ()=>{
         </li>
         <li className="contact-item">
           <div className="icon-box">
-            <ion-icon name="calendar-outline" />
+            <img  src="/images/calendar-outline.svg" />
           </div>
           <div className="contact-info">
             <p className="contact-title">Birthday</p>
@@ -62,7 +62,7 @@ const Sidebar = ()=>{
         </li>
         <li className="contact-item">
           <div className="icon-box">
-            <ion-icon name="location-outline" />
+            <img  src="/images/location-outline.svg" />
           </div>
           <div className="contact-info">
             <p className="contact-title">Location</p>
@@ -72,27 +72,21 @@ const Sidebar = ()=>{
       </ul>
       <div className="separator" />
       <ul className="social-list">
-        <li className="social-item">
           <a
             href="https://www.linkedin.com/in/chirag-gandhi-7642b3b2/"
             className="social-link"
           >
-            <ion-icon name="logo-linkedin" />
+            <img  src="/images/logo-linkedin.svg" />
           </a>
-        </li>
-        <li className="social-item">
           <a
             href="https://medium.com/@chiraggandhi70726"
             className="social-link"
           >
-            <ion-icon name="bookmark" />
+            <img  src="/images/bookmark-outline.svg" />
           </a>
-        </li>
-        <li className="social-item">
           <a href="https://instagram.com/code.scope" className="social-link">
-            <ion-icon name="logo-instagram" />
+            <img  src="/images/logo-instagram.svg" />
           </a>
-        </li>
       </ul>
     </div>
   </aside>

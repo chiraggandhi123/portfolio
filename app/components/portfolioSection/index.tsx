@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 import Image from 'next/image';
+import { IonIcon } from '@ionic/react';
 const PortfolioSection = ()=>{
     return (
         <>
@@ -31,7 +32,7 @@ const PortfolioSection = ()=>{
               Select category
             </div>
             <div className="select-icon">
-              <ion-icon name="chevron-down" />
+              {/* <IonIcon name="chevron-down" /> */}
             </div>
           </button>
           <ul className="select-list">
@@ -58,7 +59,7 @@ const PortfolioSection = ()=>{
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon name="eye-outline" />
+                  <IonIcon name="eye-outline" />
                 </div>
                 <Image
                   src="/images/project-1.jpg"
@@ -78,7 +79,7 @@ const PortfolioSection = ()=>{
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon name="eye-outline" />
+                  <IonIcon name="eye-outline" />
                 </div>
                 <Image
                   src="/images/project-2.png"
@@ -98,7 +99,7 @@ const PortfolioSection = ()=>{
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon name="eye-outline" />
+                  <IonIcon name="eye-outline" />
                 </div>
                 <Image
                   src="/images/project-3.jpg"
@@ -118,7 +119,7 @@ const PortfolioSection = ()=>{
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon name="eye-outline" />
+                  <IonIcon name="eye-outline" />
                 </div>
                 <Image
                   src="/images/project-4.png"
@@ -138,7 +139,7 @@ const PortfolioSection = ()=>{
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon name="eye-outline" />
+                  <IonIcon name="eye-outline" />
                 </div>
                 <Image
                   src="/images/project-5.png"
@@ -158,7 +159,7 @@ const PortfolioSection = ()=>{
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon name="eye-outline" />
+                  <IonIcon name="eye-outline" />
                 </div>
                 <Image
                   src="/images/project-6.png"
@@ -178,7 +179,7 @@ const PortfolioSection = ()=>{
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon name="eye-outline" />
+                  <IonIcon name="eye-outline" />
                 </div>
                 <Image
                   src="/images/project-7.png"
@@ -198,7 +199,7 @@ const PortfolioSection = ()=>{
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon name="eye-outline" />
+                  <IonIcon name="eye-outline" />
                 </div>
                 <Image
                   src="/images/project-8.jpg"
@@ -218,7 +219,7 @@ const PortfolioSection = ()=>{
             <a href="#">
               <figure className="project-img">
                 <div className="project-item-icon-box">
-                  <ion-icon name="eye-outline" />
+                  <IonIcon name="eye-outline" />
                 </div>
                 <Image
                   src="/images/project-9.png"

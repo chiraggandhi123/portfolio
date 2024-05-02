@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-
+import { IonIcon } from "@ionic/react";
 const ContactSection = () => {
   return (
     <>
@@ -28,7 +28,7 @@ const ContactSection = () => {
                 name="fullname"
                 className="form-input"
                 placeholder="Full name"
-                required=""
+                required={true}
                 data-form-input=""
               />
               <input
@@ -36,7 +36,7 @@ const ContactSection = () => {
                 name="email"
                 className="form-input"
                 placeholder="Email address"
-                required=""
+                required={true}
                 data-form-input=""
               />
             </div>
@@ -44,17 +44,17 @@ const ContactSection = () => {
               name="message"
               className="form-input"
               placeholder="Your Message"
-              required=""
+              required={true}
               data-form-input=""
               defaultValue={""}
             />
             <button
               className="form-btn"
               type="submit"
-              disabled=""
+              disabled={false}
               data-form-btn=""
             >
-              <ion-icon name="paper-plane" />
+              <IonIcon name="paper-plane" />
               <span>Send Message</span>
             </button>
           </form>

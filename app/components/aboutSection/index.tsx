@@ -1,5 +1,6 @@
 import react from "react";
 import Image from "next/image";
+import { IonIcon } from "@ionic/react";
 const AboutSection = () => {
   return (
     <>
@@ -35,6 +36,7 @@ const AboutSection = () => {
             <li className="service-item">
               <div className="service-icon-box">
                 <Image
+                height={40}
                   src="/images/icon-photo.svg"
                   alt="camera icon"
                   width={40}
@@ -51,6 +53,7 @@ const AboutSection = () => {
             <li className="service-item">
               <div className="service-icon-box">
                 <Image
+                height={40}
                   src="/images/icon-dev.svg"
                   alt="Web development icon"
                   width={40}
@@ -66,6 +69,7 @@ const AboutSection = () => {
             <li className="service-item">
               <div className="service-icon-box">
                 <Image
+                height={40}
                   src="/images/icon-app.svg"
                   alt="mobile app icon"
                   width={40}
@@ -81,8 +85,8 @@ const AboutSection = () => {
             <li className="service-item">
               <div className="service-icon-box">
                 <Image
-                  src="/images/icon-design.svg
-          "
+                height={40}
+                  src="/images/icon-design.svg"
                   alt="design icon"
                   width={40}
                 />
@@ -109,7 +113,8 @@ const AboutSection = () => {
                   <Image
                     src="/images/avatar-2.png"
                     alt="Daniel lewis"
-                    width={60}
+                    width={80}
+                    height={80}
                     data-testimonials-avatar=""
                   />
                 </figure>
@@ -135,7 +140,8 @@ const AboutSection = () => {
                   <Image
                     src="/images/avatar-1.png"
                     alt="Jessica miller"
-                    width={60}
+                    width={80}
+                    height={80}
                     data-testimonials-avatar=""
                   />
                 </figure>
@@ -161,7 +167,8 @@ const AboutSection = () => {
                   <Image
                     src="/images/avatar-3.png"
                     alt="Emily evans"
-                    width={60}
+                    width={80}
+                    height={80}
                     data-testimonials-avatar=""
                   />
                 </figure>
@@ -190,18 +197,19 @@ const AboutSection = () => {
           <div className="overlay" data-overlay="" />
           <section className="testimonials-modal">
             <button className="modal-close-btn" data-modal-close-btn="">
-              <ion-icon name="close-outline" />
+              <IonIcon name="close-outline" />
             </button>
             <div className="modal-img-wrapper">
               <figure className="modal-avatar-box">
                 <Image
                   src="/images/avatar-1.png"
                   alt="Daniel lewis"
+                  height={80}
                   width={80}
                   data-modal-img=""
                 />
               </figure>
-              <Image src="/images/icon-quote.svg" alt="quote icon" />
+              <Image src="/images/icon-quote.svg" width={35} height={113} alt="quote icon" />
             </div>
             <div className="modal-content">
               <h4 className="h3 modal-title" data-modal-title="">
@@ -229,32 +237,32 @@ const AboutSection = () => {
           <ul className="clients-list has-scrollbar">
             <li className="clients-item">
               <a href="#">
-                <Image src="/images/logo-1-color.png" alt="client logo" />
+                <Image height={100} width={164} src="/images/logo-1-color.png" alt="client logo" />
               </a>
             </li>
             <li className="clients-item">
               <a href="#">
-                <Image src="/images/logo-2-color.png" alt="client logo" />
+                <Image height={100} width={164} src="/images/logo-2-color.png" alt="client logo" />
               </a>
             </li>
             <li className="clients-item">
               <a href="#">
-                <Image src="/images/logo-3-color.png" alt="client logo" />
+                <Image height={100} width={164} src="/images/logo-3-color.png" alt="client logo" />
               </a>
             </li>
             <li className="clients-item">
               <a href="#">
-                <Image src="/images/logo-4-color.png" alt="client logo" />
+                <Image height={100} width={164} src="/images/logo-4-color.png" alt="client logo" />
               </a>
             </li>
             <li className="clients-item">
               <a href="#">
-                <Image src="/images/logo-5-color.png" alt="client logo" />
+                <Image height={100} width={164} src="/images/logo-5-color.png" alt="client logo" />
               </a>
             </li>
             <li className="clients-item">
               <a href="#">
-                <Image src="/images/logo-6-color.png" alt="client logo" />
+                <Image height={100} width={164} src="/images/logo-6-color.png" alt="client logo" />
               </a>
             </li>
           </ul>

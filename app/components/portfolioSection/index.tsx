@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import Image from 'next/image';
 const PortfolioSection = ()=>{
     return (
         <>
@@ -59,7 +60,7 @@ const PortfolioSection = ()=>{
                 <div className="project-item-icon-box">
                   <ion-icon name="eye-outline" />
                 </div>
-                <img
+                <Image
                   src="/images/project-1.jpg"
                   alt="finance"
                   loading="lazy"
@@ -79,7 +80,7 @@ const PortfolioSection = ()=>{
                 <div className="project-item-icon-box">
                   <ion-icon name="eye-outline" />
                 </div>
-                <img
+                <Image
                   src="/images/project-2.png"
                   alt="orizon"
                   loading="lazy"
@@ -99,7 +100,7 @@ const PortfolioSection = ()=>{
                 <div className="project-item-icon-box">
                   <ion-icon name="eye-outline" />
                 </div>
-                <img
+                <Image
                   src="/images/project-3.jpg"
                   alt="fundo"
                   loading="lazy"
@@ -119,7 +120,7 @@ const PortfolioSection = ()=>{
                 <div className="project-item-icon-box">
                   <ion-icon name="eye-outline" />
                 </div>
-                <img
+                <Image
                   src="/images/project-4.png"
                   alt="brawlhalla"
                   loading="lazy"
@@ -139,7 +140,7 @@ const PortfolioSection = ()=>{
                 <div className="project-item-icon-box">
                   <ion-icon name="eye-outline" />
                 </div>
-                <img
+                <Image
                   src="/images/project-5.png"
                   alt="dsm."
                   loading="lazy"
@@ -159,7 +160,7 @@ const PortfolioSection = ()=>{
                 <div className="project-item-icon-box">
                   <ion-icon name="eye-outline" />
                 </div>
-                <img
+                <Image
                   src="/images/project-6.png"
                   alt="metaspark"
                   loading="lazy"
@@ -179,7 +180,7 @@ const PortfolioSection = ()=>{
                 <div className="project-item-icon-box">
                   <ion-icon name="eye-outline" />
                 </div>
-                <img
+                <Image
                   src="/images/project-7.png"
                   alt="summary"
                   loading="lazy"
@@ -199,7 +200,7 @@ const PortfolioSection = ()=>{
                 <div className="project-item-icon-box">
                   <ion-icon name="eye-outline" />
                 </div>
-                <img
+                <Image
                   src="/images/project-8.jpg"
                   alt="task manager"
                   loading="lazy"
@@ -219,7 +220,7 @@ const PortfolioSection = ()=>{
                 <div className="project-item-icon-box">
                   <ion-icon name="eye-outline" />
                 </div>
-                <img
+                <Image
                   src="/images/project-9.png"
                   alt="arrival"
                   loading="lazy"

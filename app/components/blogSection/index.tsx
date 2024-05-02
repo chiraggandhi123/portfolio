@@ -1,6 +1,6 @@
 import React from "react";
 import './index.css';
-
+import Image from "next/image";
 const BlogSection = ()=>{
     return(<>
     <article className="blog" data-page="blog">
@@ -12,7 +12,7 @@ const BlogSection = ()=>{
           <li className="blog-post-item">
             <a href="#">
               <figure className="blog-banner-box">
-                <img
+                <Image
                   src="/images/blog-1.jpg"
                   alt="Design conferences in 2022"
                   loading="lazy"
@@ -37,7 +37,7 @@ const BlogSection = ()=>{
           <li className="blog-post-item">
             <a href="#">
               <figure className="blog-banner-box">
-                <img
+                <Image
                   src="/images/blog-2.jpg"
                   alt="Best fonts every designer"
                   loading="lazy"
@@ -62,7 +62,7 @@ const BlogSection = ()=>{
           <li className="blog-post-item">
             <a href="#">
               <figure className="blog-banner-box">
-                <img
+                <Image
                   src="/images/blog-3.jpg"
                   alt="Design digest #80"
                   loading="lazy"
@@ -85,7 +85,7 @@ const BlogSection = ()=>{
           <li className="blog-post-item">
             <a href="#">
               <figure className="blog-banner-box">
-                <img
+                <Image
                   src="/images/blog-4.jpg"
                   alt="UI interactions of the week"
                   loading="lazy"
@@ -110,7 +110,7 @@ const BlogSection = ()=>{
           <li className="blog-post-item">
             <a href="#">
               <figure className="blog-banner-box">
-                <img
+                <Image
                   src="/images/blog-5.jpg"
                   alt="The forgotten art of spacing"
                   loading="lazy"
@@ -135,7 +135,7 @@ const BlogSection = ()=>{
           <li className="blog-post-item">
             <a href="#">
               <figure className="blog-banner-box">
-                <img
+                <Image
                   src="/images/blog-6.jpg"
                   alt="Design digest #79"
                   loading="lazy"

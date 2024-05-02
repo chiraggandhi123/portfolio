@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import Image from "next/image";
 const ResumeSection = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const ResumeSection = () => {
         <section className="timeline">
           <div className="title-wrapper">
             <div className="icon-box">
-              <img src='/images/book-outline.svg'/>
+              <Image alt="timeline" src='/images/book-outline.svg'/>
             </div>
             <h3 className="h3">Experience</h3>
           </div>
@@ -20,7 +21,7 @@ const ResumeSection = () => {
               <h4 className="h4 timeline-item-title">Senior Software Engineer - Naukri.com</h4>
               <span>2022 — Present</span>
               <p className="timeline-text">
-                As a Senior Software Engineer at Naukri.com, my primary
+                {`As a Senior Software Engineer at Naukri.com, my primary
                 responsibilities revolve around frontend development and
                 optimization. I utilized my expertise in HTML, CSS, and
                 JavaScript to craft visually appealing and responsive user
@@ -32,7 +33,7 @@ const ResumeSection = () => {
                 evaluate new technologies, ensure code quality through testing,
                 and promote knowledge sharing within the organization. Overall,
                 My role is pivotal in driving the innovation and success of
-                Naukri.com's frontend ecosystem.
+                Naukri.com's frontend ecosystem.`}
               </p>
             </li>
             <li className="timeline-item">
@@ -52,7 +53,7 @@ Participated in code reviews to ensure best practices and identify areas for imp
         <section className="timeline">
           <div className="title-wrapper">
             <div className="icon-box">
-            <img src='/images/book-outline.svg'/>
+            <Image alt="title-image" src='/images/book-outline.svg'/>
             </div>
             <h3 className="h3">Education</h3>
           </div>
@@ -80,15 +81,15 @@ Participated in code reviews to ensure best practices and identify areas for imp
         <section className="skill">
           <h3 className="h3 skills-title">My skills</h3>
           <ul className="skills-list content-card" style={{color:"red"}}>
-              <img src="/images/skill-5.png" alt="" height={100} width={100} className="skill-icon" />
-              <img src="/images/skill-2.png" alt="" height={100} width={100} className="skill-icon" />
-              <img src="/images/skill-6.png" alt="" height={100} width={100} className="skill-icon" />
-              <img src="/images/skill-1.png" alt="" height={100} width={100} className="skill-icon" />
-              <img src="/images/skill-9.png" alt="" height={100} width={100} className="skill-icon" />
-              <img src="/images/skill-7.png" alt="" height={100} width={100} className="skill-icon" />
-              <img src="/images/skill-3.png" alt="" height={100} width={100} className="skill-icon" />
-              <img src="/images/skill-8.png" alt="" height={100} width={100} className="skill-icon" />
-              <img src="/images/skill-4.png" alt="" height={100} width={100} className="skill-icon" />
+              <Image src="/images/skill-5.png" alt="" height={100} width={100} className="skill-icon" />
+              <Image src="/images/skill-2.png" alt="" height={100} width={100} className="skill-icon" />
+              <Image src="/images/skill-6.png" alt="" height={100} width={100} className="skill-icon" />
+              <Image src="/images/skill-1.png" alt="" height={100} width={100} className="skill-icon" />
+              <Image src="/images/skill-9.png" alt="" height={100} width={100} className="skill-icon" />
+              <Image src="/images/skill-7.png" alt="" height={100} width={100} className="skill-icon" />
+              <Image src="/images/skill-3.png" alt="" height={100} width={100} className="skill-icon" />
+              <Image src="/images/skill-8.png" alt="" height={100} width={100} className="skill-icon" />
+              <Image src="/images/skill-4.png" alt="" height={100} width={100} className="skill-icon" />
             {/* <li className="skills-item">
               <div className="title-wrapper">
                 <h5 className="h5">Web design</h5>

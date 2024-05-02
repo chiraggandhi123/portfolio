@@ -280,8 +280,21 @@
     box-shadow: var(--shadow-2);
     cursor: pointer;
     z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
   }
-  
+  .content-card .skill-icon{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+
+  }
+  .content-card .skill-icon:hover{
+   
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
+
+  }
   .content-card::before {
     content: "";
     position: absolute;

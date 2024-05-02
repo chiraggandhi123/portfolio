@@ -11,7 +11,12 @@ import ContactSection from "./components/contactSection";
 
 const Home = () => {
   const [activeIdx, setActiveIdx] = useState(0);
-  const LinkList = ["About", "Resume", "Portfolio", "Blog", "Contact"];
+  const LinkList = ["About",
+   "Resume", 
+   "Contact"
+  //  "Portfolio", 
+  //  "Blog", 
+  ];
   const renderSection = (idx: number)=>{
     switch (idx) {
       case 0:
@@ -19,11 +24,11 @@ const Home = () => {
       case 1:
         return <ResumeSection/>
       case 2:
-        return <PortfolioSection/>
-      case 3:
-        return <BlogSection/>
-      case 4:
         return <ContactSection/>    
+        case 3:
+          return <BlogSection/>
+          case 4:
+        return <PortfolioSection/>
       default:
         return <AboutSection/>
     }
